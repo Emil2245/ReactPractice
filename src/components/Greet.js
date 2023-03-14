@@ -10,7 +10,7 @@ function Greet() {
   <div>
     <p>Hello Again Hooman!</p>
     <p>{stateHora}</p>
-    <button onClick={() => activarHora() }>Touch this... Dare you</button>
+    <button onClick={() => activarHora() }>Update Time</button>
   </div>
   )
 }
