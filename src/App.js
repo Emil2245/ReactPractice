@@ -1,14 +1,13 @@
 import './App.css';
 import Greet from './components/Greet'
-import GithubRepoChecker from './components/GithubRepoChecker';
+import GithubRepo from "./components/GithubRepo";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <GithubRepoChecker/>
-        <p>Hello world.</p>
-        <Greet/>
+        <Greet/>  
+        <GithubRepo/>
       </header>
     </div>
   );
